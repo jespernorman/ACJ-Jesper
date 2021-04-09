@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'acj-clara'
         slot-name: 'clara'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_45b8de66c1594cde9cb51ac077c2b0b0 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cf330cabbfa443d2988ae32938edd2fd }}
         package: .
