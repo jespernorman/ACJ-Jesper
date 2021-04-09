@@ -1,0 +1,27 @@
+﻿body {
+    background-color: lightgrey;
+}
+
+.display-4 {
+    padding: 2rem 0 0 0;
+}
+
+p {
+    color: black;
+    font-size: 0.7rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 25%;
+    padding: 2rem;
+}
