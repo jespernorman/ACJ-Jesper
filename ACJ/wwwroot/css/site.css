@@ -59,13 +59,29 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin: 0;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.display-4{
+    color: snow;
+    text-shadow: white;
+    margin: 6% auto auto -20%;
+}
+.members-list {
+    color: snow;
+    text-shadow: white;
+    margin: auto auto auto -20%;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
 }
