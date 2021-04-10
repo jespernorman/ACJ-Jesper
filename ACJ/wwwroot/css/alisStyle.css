@@ -106,10 +106,10 @@ hr {
     padding-top: 10px;
 }
 
-    .social-media ul {
-        list-style-position: inside;
-        padding: 0;
-    }
+.social-media ul {
+    list-style-position: inside;
+    padding: 0;
+}
 
 .content a {
     color: black;
