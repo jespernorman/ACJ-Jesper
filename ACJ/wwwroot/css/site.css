@@ -71,12 +71,12 @@ body {
 .display-4{
     color: snow;
     text-shadow: white;
-    margin: 6% auto auto -20%;
+    margin: auto;
 }
 .members-list {
     color: snow;
     text-shadow: white;
-    margin: auto auto auto -20%;
+    margin: auto;
 }
 .footer {
     position: absolute;
