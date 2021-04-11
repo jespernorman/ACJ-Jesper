@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - acj-clara(clara)
+name: Build and deploy ASP.Net Core app to Azure Web App - acj-clara(dev)
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
     runs-on: windows-latest
     needs: build
     environment:
-      name: 'clara'
+      name: 'dev'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
@@ -51,6 +51,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'acj-clara'
-        slot-name: 'clara'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cf330cabbfa443d2988ae32938edd2fd }}
+        slot-name: 'dev'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e025c491c81040ea8cf40227f4dc0c3f }}
         package: .
