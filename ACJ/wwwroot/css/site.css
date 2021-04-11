@@ -61,20 +61,14 @@ html {
 body {
     /* Margin bottom by footer height */
     margin: 0;
-    background-image: url(../img/background.jpg);
-    background-size: 100%;
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
 }
 .display-4{
-    color: snow;
+    color: black;
     text-shadow: white;
     margin: auto;
 }
 .members-list {
-    color: snow;
+    color: black;
     text-shadow: white;
     margin: auto;
 }
