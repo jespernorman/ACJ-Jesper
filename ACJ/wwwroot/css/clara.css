@@ -7,16 +7,18 @@ p {
     font-size: 0.7rem;
 }
 
-header {
-    background-color: grey;
-    color: white;
-}
-header a {
-    color: white
+a {
+    color: black;
+    text-decoration: none;
 }
 
-header a:hover {
-    color: black;
+a:hover {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+h3 {
+    margin: 0 0 2rem 0;
 }
 
 .top {
@@ -27,6 +29,7 @@ header a:hover {
     animation-iteration-count: 1;
     animation-duration: 1.5s;
 }
+
 @-webkit-keyframes slide-in-header {
     from {
         margin-left: -100%;
@@ -37,16 +40,9 @@ header a:hover {
     }
 }
 
-.header-bar {
-    width: 8%;
-    height: 0.2rem;
-    margin: 0.5rem auto 0 auto;
-    background-color: black;
-}
-
 .pine-icon {
     width: 5%;
-    margin: 5rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     animation-name: slide-in-icon;
     animation-iteration-count: 1;
     animation-duration: 1.5s;
@@ -69,8 +65,8 @@ header a:hover {
 .trans {
     background-color: #ffffff;
     opacity: 0.8;
-    padding: 2rem;
-    margin: 5rem 2rem 2rem 2rem;
+    margin: 7rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 .trans p {
@@ -78,19 +74,36 @@ header a:hover {
     opacity: 1;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-a:hover {
-    color: darkgrey;
-    text-decoration: none;
-}
-
-h3 {
-    margin: 0 0 2rem 0;
+.trans a {
+    font-size: 0.9rem;
 }
 
 .trans img {
     width: 15%;
+}
+
+.hike {
+    width: 50%;
+}
+
+.quote {
+    border: 0.1rem solid white;
+    width: 67.5%;
+    margin: 3rem auto 1rem auto;
+    padding: 0.5rem;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 0.8rem;
+}
+
+footer div {
+    color: white;
+}
+
+footer div a {
+    color: white;
+}
+
+footer div a:hover {
+    color: black;
 }
