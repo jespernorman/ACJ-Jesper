@@ -9,7 +9,8 @@
     float: left;
     margin-right: 30px;
     height: 1000px;
-    flex:auto;
+    display: flex;
+    flex-direction: column;
 }
 #Right {
     flex: 1;
