@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+
+    <None Include="wwwroot\img\background.jpg" />
+
   </ItemGroup>
 
 </Project>
