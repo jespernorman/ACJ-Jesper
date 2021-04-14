@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>fe1c0c4a-10af-4352-8071-78c6177f7b24</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/daa2efc0-7738-453b-a104-b06a1a25b1e8/resourceGroups/claraRG/providers/microsoft.insights/components/acj-clara</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
