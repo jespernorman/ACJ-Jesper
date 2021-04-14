@@ -1,5 +1,9 @@
 ﻿body {
     margin: 0;
+    background-image: url(~/img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://emerging-europe.com/wp-content/uploads/2018/05/bigstock-fintech-icon-on-abstract-fina-209216539.jpg);
