@@ -54,11 +54,16 @@
                 </div>
 
                 <script>function myMap() {
+                        const uluru = { lat: 57.6981, lng: 11.9635 };
                         var mapProp = {
-                            center: new google.maps.LatLng(51.508742, -0.120850),
-                            zoom: 5,
+                            center: new google.maps.LatLng(57.69813171843707, 11.96351732617888),
+                            zoom: 2,
                         };
                         var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                        const marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map,
+                        });
                     }</script>
 
                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCug0b5_DVdle-tFS42V13CTeGJYC_ecE&callback=myMap"></script>
